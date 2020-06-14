@@ -282,8 +282,9 @@ a.active {
 
 #home {
     background: url(../img/bwSmile.jpg);
-    background-size: 94vh 100vh;
-    height: 100vh;
+    background-size: contain;
+	width: 100%;
+    height: 100%;
 }
 
 .table-cell {
