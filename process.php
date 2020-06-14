@@ -20,5 +20,7 @@
 
 
     $send = mail($to, $subject, $body, $headers);
+	
+	header("Location: index.html");
 
 ?>
